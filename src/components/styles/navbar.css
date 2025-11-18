@@ -1,0 +1,24 @@
+/* navbar.css */
+.navbar-container {
+  @apply w-full flex items-center justify-between px-6 py-4 bg-white shadow-sm;
+}
+
+.navbar-link {
+  @apply text-gray-700 hover:text-black transition font-medium;
+}
+
+.navbar-logo {
+  @apply text-2xl font-bold text-gray-900;
+}
+
+.navbar-btn {
+  @apply px-4 py-2 rounded-lg bg-black text-white hover:bg-gray-800 transition;
+}
+
+.navbar-menu {
+  @apply hidden md:flex gap-6;
+}
+
+.navbar-mobile {
+  @apply flex flex-col gap-4 p-5 bg-white shadow-md;
+}
